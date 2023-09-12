@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="green1">#4CAF50</color>
+    <color name="pink">#E91E63</color>
+    <color name="deeoourole">#673AB7</color>
+    <color name="red2">#DA0202</color>
+    <color name="yellow">#FFC107</color>
+    <color name="_bg__android_mobile___1_color">#D5D5D5</color>
+    <color name="rectangle_5_color">#673AB7</color>
+
+</resources>

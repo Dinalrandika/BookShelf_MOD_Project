@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".book_view">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"></View>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        app:cardElevation="0dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        app:cardCornerRadius="15dp">
+
+        <ImageView
+            android:id="@+id/book_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:contentDescription="book" />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"></View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"></View>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="Book Name"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:id="@+id/product_name_details"
+            android:gravity="start"></TextView>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"></TextView>
+
+
+        <TextView
+            android:id="@+id/product_price_details"
+            android:layout_width="0dp"
+            android:layout_height="29dp"
+            android:layout_weight="2"
+            android:background="@drawable/details_button_drawable"
+            android:fallbackLineSpacing="true"
+            android:gravity="center"
+            android:text="Price"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"></TextView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Book Description"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:id="@+id/book_description_details"></TextView>
+
+    <TextView
+        android:id="@+id/book_details"
+        android:layout_width="400dp"
+        android:layout_height="150dp"></TextView>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/decrement_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/book_count"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="1"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:gravity="center"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <Button
+            android:id="@+id/increment_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textStyle="bold"
+
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/add_to_cart_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Cart"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginStart="19dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

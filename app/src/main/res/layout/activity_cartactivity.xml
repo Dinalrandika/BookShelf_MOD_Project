@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header -->
+    <ImageView
+        android:id="@+id/headerImageView"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@drawable/imgcover" />
+
+    <!-- Container for Image and Welcome Text -->
+    <LinearLayout
+        android:id="@+id/headerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/headerImageView">
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="#3F51B5">
+            <!-- Content for the top layout if needed -->
+            <TextView
+                android:id="@+id/total_price_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Price"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/total_price_txt"
+                android:layout_marginTop="-16dp"
+                android:text="Rs. "
+                android:layout_alignRight="@+id/total_price_txt"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cart_list"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_below="@id/layout1"
+            android:layout_above="@+id/next_btn"
+            />
+
+        <Button
+            android:id="@+id/Checkout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/rounded"
+            android:gravity="center"
+            android:text="Checkout"
+            android:textAllCaps="false"
+            android:textSize="21dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/customToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="Home"
+            android:src="@drawable/baseline_home_24" />
+        <ImageButton
+            android:id="@+id/btnCategory"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="Category"
+            android:src="@drawable/baseline_category_24" />
+        <ImageButton
+            android:id="@+id/btnCart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="Cart"
+            android:src="@drawable/baseline_shopping_cart_24" />
+        <ImageButton
+            android:id="@+id/btnMap"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="Map"
+            android:src="@drawable/baseline_add_location_alt_24" />
+        <ImageButton
+            android:id="@+id/btnProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="Profile"
+            android:src="@drawable/baseline_supervised_user_circle_24" />
+
+    </LinearLayout>
+</RelativeLayout>

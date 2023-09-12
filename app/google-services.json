@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "10117781987",
+    "firebase_url": "https://mad-project-test-288ea-default-rtdb.firebaseio.com",
+    "project_id": "mad-project-test-288ea",
+    "storage_bucket": "mad-project-test-288ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10117781987:android:4327a2cc4b6b027ce828d6",
+        "android_client_info": {
+          "package_name": "com.example.mad_ex1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10117781987-5349sgk3mvtr32lt41363ntmcooldskj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_86ruEfNmoU7sSFr_kW1eQ_60LjS6G_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10117781987-5349sgk3mvtr32lt41363ntmcooldskj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10117781987:android:5868ca7bcb53ea0de828d6",
+        "android_client_info": {
+          "package_name": "com.example.mad_ex2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10117781987-5349sgk3mvtr32lt41363ntmcooldskj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_86ruEfNmoU7sSFr_kW1eQ_60LjS6G_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10117781987-5349sgk3mvtr32lt41363ntmcooldskj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10117781987:android:b4e6f9c808d1a7f2e828d6",
+        "android_client_info": {
+          "package_name": "com.example.mad_fin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10117781987-5349sgk3mvtr32lt41363ntmcooldskj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_86ruEfNmoU7sSFr_kW1eQ_60LjS6G_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10117781987-5349sgk3mvtr32lt41363ntmcooldskj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
